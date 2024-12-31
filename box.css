@@ -1,0 +1,71 @@
+.box-1{
+    width:300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px, solid, black;
+    margin: 15px;
+    background-color: navajowhite;
+}
+.box-2{
+    width:300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+.box-3, .box-4{
+width: 200px;
+border: 5px solid burlywood;
+padding: 5px;
+background-color: yellow;
+}
+.box-3, .box-4{
+    display: inline-block;
+    padding-left: 25px;
+}
+.box-3{
+    margin-right: 20px;
+}
+.box-4{
+    margin-right: 20px;
+}
+.parent{
+    width: 100%;
+    height: 500px;
+    border: 5px solid blueviolet;
+    box-sizing: border-box;
+    background-color: gray;
+
+}
+.child{
+    width: 300px;
+    height: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border: 5px solid yellowgreen;
+    padding-left:100px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+.box-5{
+
+    border: 0px solid darkgoldenrod;
+    box-sizing: border-box;
+}
+.box-6{
+    border: 5px solid darkcyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.box-7{
+    border: 5px solid darkcyan;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
